@@ -79,7 +79,7 @@ export const HomeScreen = () => {
   };
 
   const handleReadCode = (value: string) => {
-    console.log(value);
+    alert(value);
     setQrText(value);
     setCameraShown(false);
   };
